@@ -35,6 +35,7 @@ a {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .wrapper--flex {
@@ -42,6 +43,10 @@ a {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.section {
+  margin-bottom: 4rem;
 }
 
 /* Header
@@ -86,4 +91,32 @@ a {
 
 .hero__description {
   font-size: 2.5rem;
+}
+
+
+/* Questions
+ ============================================================================ */
+
+.questions__title {
+  font-size: 3.5rem;
+  color: #0859b7;
+}
+
+.question {
+  color: #0859b7;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  display: inline-block;
+}
+
+.answer {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #0859b7;
+}
+
+.questions__wrapper {
+  margin: 4rem 0;
 }
