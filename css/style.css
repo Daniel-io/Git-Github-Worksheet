@@ -26,3 +26,64 @@ body {
 a {
   text-decoration: none;
 }
+
+
+
+/* Components
+ ============================================================================ */
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper--flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Header
+ ============================================================================ */
+
+.header {
+  background-color: #24292e;
+  color: white;
+  padding: 1rem 0;
+}
+
+.author {
+  font-size: 2.5rem;
+}
+
+.logo {
+  font-size: 6rem;
+}
+
+/* Hero
+ ============================================================================ */
+
+.hero {
+  background-image:  url('../images/hero-background.png');
+  color: white;
+  padding: 5rem 0;
+}
+
+.hero__details,
+.hero__image-wrapper {
+  width: 50%;
+}
+
+.hero__image {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.title--primary {
+  font-size: 4.5rem;
+}
+
+.hero__description {
+  font-size: 2.5rem;
+}
