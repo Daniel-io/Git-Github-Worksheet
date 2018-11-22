@@ -120,3 +120,36 @@ a {
 .questions__wrapper {
   margin: 4rem 0;
 }
+
+
+/* Configure
+============================================================================ */
+
+.configure {
+  background-color: #262b30;
+  color: white;
+  padding: 4rem 0;
+}
+
+.configure__title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.configure__user,
+.configure__email {
+  font-size: 2rem;
+}
+
+.input {
+  font-style: italic;
+  font-weight: 300;
+}
+
+
+
+
+
+/* ==========================================================================
+  Responsive
+ ============================================================================ */
