@@ -63,6 +63,8 @@ a {
   margin-bottom: 4rem;
 }
 
+.margin-bottom { margin-bottom: 3rem;}
+
 /* Section: Header
  ============================================================================ */
 
@@ -111,7 +113,7 @@ a {
 /* Section: Questions
  ============================================================================ */
 
-.questions__title {
+.intro__title {
   font-size: 3.5rem;
   color: #0859b7;
 }

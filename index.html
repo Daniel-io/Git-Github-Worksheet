@@ -44,7 +44,7 @@
   <section class="questions-list section"> <!-- Questions -->
     <div class="container">
 
-      <h2 class="questions__title">Need to know</h2>
+      <h2 class="intro__title">Need to know</h2>
 
       <div class="questions__wrapper">
         <h3 class="question">What is Git ?</h3>
@@ -604,6 +604,77 @@
       </div>
     </div>
   </section>
+
+  <section class="commands"> <!-- Commands: Cherry-pick command -->
+    <div class="container">
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git cherry-pick <span class="input">sha-1</span></p>
+            <p class="commands__description"> Bring commit from another branch to current branch </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="commands"> <!-- Commands: remote -->
+    <div class="container">
+
+      <h2 class="intro__title margin-bottom">Github</h2>
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git remote add <span class="input">origin HTTPS</span> </p>
+            <p class="commands__description"> connects remote repository to local repository </span></p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git remote -v </p>
+            <p class="commands__description"> List remote repository connections </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git remote remove <span class="input"> origin </span></p>
+            <p class="commands__description"> To delete remote repo </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git fetch <span class="input">origin</span> master </p>
+            <p class="commands__description">  Fetch master branch from origin repository  </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git merge origin/master --allow-unrelated-histories </p>
+            <p class="commands__description">   merge origin with local master  </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git pull origin master </p>
+            <p class="commands__description">  Fetch and merge at the same time. </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
 
 
 </body>
