@@ -42,6 +42,7 @@ a {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 1rem;
 }
 
 .section {
@@ -143,10 +144,11 @@ a {
 .input {
   font-style: italic;
   font-weight: 300;
+  margin-left: 1rem;
 }
 
 
-/* Section: Configure
+/* Section: Basic Terminal Commands
 ============================================================================ */
 
 .commands {
@@ -181,4 +183,14 @@ a {
 
 .command {
   font-weight: bold;
+}
+
+
+/* Section: VIM Commands
+============================================================================ */
+
+.note {
+  font-size: 1.5rem;
+  padding: 3rem;
+  color: #0859b7;
 }
