@@ -204,3 +204,22 @@ a {
   padding: 3rem;
   color: #0859b7;
 }
+
+/* Section: Information
+============================================================================ */
+
+.information {
+  background-color: #0859b7;
+  color: white;
+  padding: 4rem 0;
+  font-size: 1.5rem;
+}
+
+.information__item {
+  margin: 1rem 0;
+}
+
+.defenition {
+  text-transform: uppercase;
+  margin-right: 1rem;
+}

@@ -542,6 +542,14 @@
     </div>
   </section>
 
+  <section class="information">
+    <div class="container">
+      <p class="information__item"><strong class="defenition">Fast-forward : </strong>  merges with branch with the same history</p>
+      <p class="information__item"><strong class="defenition">Recursive' strategy :</strong>  merges with branch with different history but there is no conflicting code</p>
+      <p class="information__item"> When there is a merge with conflicts, resolve conflict and save and add & commit changes. </p>
+    </div>
+  </section>
+
   <section class="commands"> <!-- Commands: Rebase -->
     <div class="container">
 
@@ -551,6 +559,45 @@
           <div class="wrapper--flex">
             <p class="command">git rebase</p>
             <p class="commands__description"> Changes history </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="commands"> <!-- Commands: Stash -->
+    <div class="container">
+
+      <h4 class="commands__title"> Stash Command </h4>
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git stash </p>
+            <p class="commands__description"> Saves current changes <span class="parenthesis"> (Saves current work in progress, they must be staged or modified) </span></p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git stash list </p>
+            <p class="commands__description"> Show list of stash</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git stash drop <span class="input"> stash@{0} </span></p>
+            <p class="commands__description"> Delete stash </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git stash apply </p>
+            <p class="commands__description"> Brings bach stash to working directory or staging area </p>
           </div>
         </div>
 
