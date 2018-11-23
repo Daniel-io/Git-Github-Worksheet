@@ -217,7 +217,7 @@
     </div>
   </section>
 
-  <section class="commands"> <!-- Commands: Terminal -->
+  <section class="commands"> <!-- Commands: Status -->
     <div class="container">
 
       <div class="commands__block">
@@ -244,6 +244,34 @@
           <div class="wrapper--flex">
             <p class="command">git add <span class="input">file name</span></p>
             <p class="commands__description">To add files from the working directory to the staging area</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git add -n <span class="input">file name</span></p>
+            <p class="commands__description"> Dry run <span class="parenthesis">(does not unstage)</span></p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git add -A </p>
+            <p class="commands__description"> To add all untracked files to the staging area</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git rm --cached <span class="input">file name</span></p>
+            <p class="commands__description"> To unstage <span class="parenthesis">(return to working directory from staging area)</span></p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git rm -f <span class="input">file name</span></p>
+            <p class="commands__description"> To unstage files and delete </p>
           </div>
         </div>
 

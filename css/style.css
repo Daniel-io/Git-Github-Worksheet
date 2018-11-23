@@ -45,6 +45,19 @@ a {
   margin-bottom: 1rem;
 }
 
+.input {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: 1rem;
+}
+
+.parenthesis {
+  font-style: italic;
+  font-weight: 300;
+  margin-left: .5rem;
+  color:  #0859b7;
+}
+
 .section {
   margin-bottom: 4rem;
 }
@@ -139,12 +152,6 @@ a {
 .configure__user,
 .configure__email {
   font-size: 2rem;
-}
-
-.input {
-  font-style: italic;
-  font-weight: 300;
-  margin-left: 1rem;
 }
 
 
