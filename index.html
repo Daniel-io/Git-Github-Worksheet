@@ -414,6 +414,150 @@
     </div>
   </section>
 
+  <section class="commands"> <!-- Commands: Git Reset -->
+    <div class="container">
+
+      <h4 class="commands__title"> Git Reset </h4>
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git reset 	&nbsp;--soft <span class="input">sha-1</span> </p>
+            <p class="commands__description"> From the specific commit, it will take the commits after, and put them in the staging area</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git reset 	&nbsp;--mixed <span class="input">sha-1</span> </p>
+            <p class="commands__description"> From the specific commit it will take the commits after, and put them in the working directory</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git reset 	&nbsp;--hard <span class="input">sha-1</span> </p>
+            <p class="commands__description"> Deletes commits even from the working directory</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="configure"> <!-- Configure: Editor -->
+    <div class="container">
+
+      <div class="configure__details">
+        <h4 class="configure__title">How to configure an editor</h4>
+        <p class="configure__item">git config --global core.editor <span class="input">“atom --wait”</span></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="commands"> <!-- Commands: Branch -->
+    <div class="container">
+
+      <h4 class="commands__title"> Branch Command </h4>
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git branch <span class="input">name</span> </p>
+            <p class="commands__description"> To create a new branch</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git branch -l </p>
+            <p class="commands__description"> To list all branches </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git branch  -d<span class="input">name</span> </p>
+            <p class="commands__description"> To delete branch </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git branch  -D<span class="input">name</span> </p>
+            <p class="commands__description"> To delete branch <span class="parenthesis">(forced)</span> </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git branch  -m <span class="input">name &nbsp;new-name</span> </p>
+            <p class="commands__description"> To change the name of a specific branch </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="commands"> <!-- Commands: Checkout -->
+    <div class="container">
+
+      <h4 class="commands__title"> Checkout & Merge Command </h4>
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git checkout <span class="input">name</span> </p>
+            <p class="commands__description"> To move to the specific branch </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git checkout <span class="input">sha-1</span> </p>
+            <p class="commands__description"> To move to the specific  commit </p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git checkout -b <span class="input"> name </span> </p>
+            <p class="commands__description"> Create branch and move to it</p>
+          </div>
+        </div>
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command"> git merge <span class="input"> name </span> </p>
+            <p class="commands__description"> Merges the specified branch to master <span class="parenthesis">(assuming you are currently on master)</span></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="commands"> <!-- Commands: Rebase -->
+    <div class="container">
+
+      <div class="commands__block">
+
+        <div class="commands__wrapper">
+          <div class="wrapper--flex">
+            <p class="command">git rebase</p>
+            <p class="commands__description"> Changes history </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
 
 </body>
 </html>

@@ -151,7 +151,8 @@ a {
 }
 
 .configure__user,
-.configure__email {
+.configure__email,
+.configure__item {
   font-size: 2rem;
 }
 
@@ -187,7 +188,7 @@ a {
 
 .command,
 .commands__description {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .command {
