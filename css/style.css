@@ -234,10 +234,15 @@ a {
 
 @media screen and (max-width: 500px) {
 
-  .wrapper--flex:not(:.header .wrapper--flex ) {
-    align-items: flex-start;
+  .wrapper--flex{
     flex-direction: column;
+    align-items: flex-start;
     margin-bottom: 1rem;
+  }
+
+  .header .wrapper--flex {
+    flex-direction: row;
+    align-items: center;
   }
 
   .wrapper--flex > *:not(:last-child) {
