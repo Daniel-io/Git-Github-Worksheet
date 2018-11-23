@@ -231,3 +231,17 @@ a {
 /* ==========================================================================
   Responsive
  ============================================================================ */
+
+@media screen and (max-width: 550px) {
+
+  .wrapper--flex {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .wrapper--flex > *:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+}
