@@ -232,9 +232,9 @@ a {
   Responsive
  ============================================================================ */
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 500px) {
 
-  .wrapper--flex {
+  .wrapper--flex:not(:.header .wrapper--flex ) {
     align-items: flex-start;
     flex-direction: column;
     margin-bottom: 1rem;
@@ -242,6 +242,14 @@ a {
 
   .wrapper--flex > *:not(:last-child) {
     margin-bottom: 1rem;
+  }
+
+  .hero__details, .hero__image-wrapper {
+    width: 100%;
+  }
+
+  .commands {
+    padding: 4rem 0rem;
   }
 
 }
