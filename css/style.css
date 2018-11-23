@@ -168,6 +168,7 @@ a {
   background-color: white;
   box-shadow: 5px 5px 20px #88888829;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .commands__wrapper {
