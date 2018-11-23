@@ -154,11 +154,19 @@ a {
   padding: 4rem;
 }
 
-.commands__wrapper {
+.commands__block {
   background-color: white;
-  padding: 5rem;
   box-shadow: 5px 5px 20px #88888829;
+  border-radius: 15px;
+}
+
+.commands__wrapper {
+  padding: 3rem;
   border-radius: 5px;
+}
+
+.commands__wrapper:hover {
+  background-color: rgba(8, 89, 183, 0.1);
 }
 
 .commands__title {
@@ -168,7 +176,7 @@ a {
 
 .command,
 .commands__description {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .command {
